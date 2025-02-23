@@ -28,5 +28,10 @@
 	 <?php $float+=5; ?>
 	 <?php echo $float; ?>
 
+
+	 <h2>Functions</h2>
+
+
+	 Round: <?php echo round($float,1); ?>
 </body>
 </html>
