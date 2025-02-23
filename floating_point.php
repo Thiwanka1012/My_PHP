@@ -35,5 +35,31 @@
 	 Round: <?php echo round($float,1); ?> <br>
 	 Round Up: <?php echo ceil($float); ?><br>
 	 Round Down:<?php echo floor($float); ?>
+
+
+
+	 <h2>How to check if a number is an Integer or a Float</h2>
+
+	 	<?php 
+	 		$myfloat=3.44;
+	 		$myInteger=55;
+
+
+	 	 ?>
+
+
+	 	 <?php echo "Is {$myfloat} an myInteger?" . is_int($myfloat); ?><br>
+
+	 	 <?php echo "Is {$myInteger} an myInteger?" . is_int($myInteger); ?><br>
+
+	 	 <?php echo "Is {$myfloat} an float?" . is_float($myfloat); ?><br>
+
+
+	 	 <?php echo "Is {$myfloat} an Numaric?" . is_numeric($myfloat); ?><br>
+
+
+
+
+
 </body>
 </html>
