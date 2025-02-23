@@ -37,5 +37,8 @@ print_r($newarray);
 ?>
 </pre>	
 
+
+search: <?php echo in_array(26, $mynumbers); ?>
+
 </body>
 </html>
