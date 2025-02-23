@@ -15,9 +15,34 @@
 
 	 <br>
 
+
+	 <h2>Before</h2>
+
 	 <pre>
 	 <?php print_r($mycars); ?>
 	 </pre>
+
+
+
+	 <h2>After</h2>
+	 	
+
+	 	<?php 
+
+	 	$mycars[4]="Suzuki";
+
+	 	 ?>
+
+
+
+	 	<pre>
+	 		
+	 		<?php print_r($mycars); ?>
+	 	</pre>
+
+
+
+	 
 
 </body>
 </html>
