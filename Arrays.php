@@ -8,7 +8,7 @@
 <body>
 
 	<?php 
-		$mycars= array("Toyota","Nissan","Kia","Mazda");
+		$mycars= array("Toyota","Nissan","Kia","Mazda",array("Arma","Deadpool","Wolverine"));
 		echo $mycars[3];
 
 	 ?>
@@ -33,6 +33,8 @@
 
 	 	 ?>
 
+<?php $mycars[] = "Mitsubishi"; ?>
+<?php $mycars[4][1]="Amsterdam"; ?>
 
 
 	 	<pre>
@@ -41,7 +43,12 @@
 	 	</pre>
 
 
+	 	
 
+
+
+
+ 
 	 
 
 </body>
