@@ -15,6 +15,7 @@
  ?>
 
 
- <?php echo $student["first_name"]; ?>
+ <?php echo $student["first_name"]; ?><br>
+ <?php echo $student["first_name"] ." ". $student["last_name"]; ?>
 </body>
 </html>
