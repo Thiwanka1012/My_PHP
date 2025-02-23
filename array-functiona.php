@@ -24,10 +24,18 @@ Reverse Sort: <pre><?php echo rsort($mynumbers); print_r($mynumbers) ?></pre><br
 
 Impode: <?php 
 		
-			$string=implode("\\", $mynumbers);
+			$string=implode("|", $mynumbers);
 			echo $string;
 
 
- ?>
+ ?><br>
+<pre>
+Explode:<?php $newarray= explode("|", $string);
+print_r($newarray);
+
+
+?>
+</pre>	
+
 </body>
 </html>
