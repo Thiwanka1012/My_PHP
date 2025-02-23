@@ -33,6 +33,7 @@
 
 
 	 Round: <?php echo round($float,1); ?> <br>
-	 Round Up: <?php echo ceil($float); ?>
+	 Round Up: <?php echo ceil($float); ?><br>
+	 Round Down:<?php echo floor($float); ?>
 </body>
 </html>
