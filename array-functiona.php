@@ -19,5 +19,7 @@
  Maximum value: <?php echo max($mynumbers); ?><br>
  Minimum Value:<?php echo min($mynumbers) ?><br>
  Count: <?php echo count($mynumbers) ?><br>
+ Sort: <pre><?php echo sort($mynumbers); print_r($mynumbers); ?></pre>
+Reverse Sort: <pre><?php echo rsort($mynumbers); print_r($mynumbers) ?></pre>
 </body>
 </html>
