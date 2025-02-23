@@ -32,6 +32,7 @@
 	 <h2>Functions</h2>
 
 
-	 Round: <?php echo round($float,1); ?>
+	 Round: <?php echo round($float,1); ?> <br>
+	 Round Up: <?php echo ceil($float); ?>
 </body>
 </html>
