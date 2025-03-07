@@ -6,38 +6,47 @@
 	<title></title>
 </head>
 <body>
-	<?php 
+<?php
 
-		$var1=20;
-		$var2=50;
-
-
-		
-
-	 ?>
+	$var1=30;
+	$var2=40;
 
 
 
 
 
-	 Basic calculation(va1+var2): <?php echo ($var1+$var2); ?>
+
+  ?>
+
+
+  Basic Calculation (((10+20+$var1)*$var2)/20-30);
+  <?php echo (((10+20+$var1)*$var2)/20-30); ?><br>
+
+  <h2>Some Useful Integer Functions</h2>
+
+
+  Squre Root: <?php echo sqrt(100); ?><br>
+  Expotential: <?php echo pow(2,4); ?><br>
+  Absolute Value: <?php echo abs(10-15); ?><br>
+  Modulo: <?php echo fmod(10, 3); ?><br>
+  Random number: <?php echo rand(); ?><br>
+  Random number: <?php echo rand(10,100); ?><br>
+
+  <h2>Increment/Decrement</h2>
+
+
+  Addition: <?php $var1 += 20; echo $var1; ?><br>
+  Substraction:<?php $var1 -=40; echo $var1; ?><br>
+  Multipication: <?php $var1 *=9; echo $var1; ?><br>
 
 
 
-	 <h2> Some Usefull integer functions</h2>
 
 
-	 squre root: <?php echo sqrt(100); ?><br>
-	 Expotentiol:<?php echo pow(4, 3); ?><br>
-	 Absolute Value:<?php echo abs(10-79); ?><br>
-	 Random Number: <?php echo rand() ?><br>
-	 Random 10-100:<?php echo rand(10,100); ?>
 
 
-	 <h2>Increment and Decrement</h2>
 
-	 <?php $var1 = $var1+20; ?>
-	 <?php echo $var1; ?>
 
+  
 </body>
 </html>
