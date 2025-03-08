@@ -29,6 +29,10 @@
  	Sort: <?php sort($mynumbers); print_r($mynumbers); ?>
  </pre>
 
+ <pre>
+ 	
+ Reverse sort: <?php rsort($mynumbers); print_r($mynumbers); ?>
+ </pre>
 
 </body>
 </html>
