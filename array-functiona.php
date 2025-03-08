@@ -46,7 +46,11 @@ print_r($newarray);
  ?>
 
 
+
  </pre>
+
+
+ Search: <?php echo in_array(22, $mynumbers); ?><br>
 
 </body>
 </html>
