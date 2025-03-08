@@ -20,6 +20,8 @@
 
 	 <?php echo $student["first_name"]; ?><br>
 
+	 Full name: <?php echo $student["first_name"] . " " . $student["last_name"]; ?>
+
 
 
 </body>
