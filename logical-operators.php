@@ -34,7 +34,7 @@
 	 	<h2>Not Operator</h2>
 	 <?php 
 
-
+	 	$username= "Dileep";
 	 if (isset($username)) {
 
 	 	echo "Your name is: " . $username;
