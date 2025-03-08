@@ -34,7 +34,9 @@
  Reverse sort: <?php rsort($mynumbers); print_r($mynumbers); ?>
  </pre>
 
- Implode: <?php echo implode("|", $mynumbers) ?>
+ Implode: <?php  $string=implode("|", $mynumbers); echo $string ?><br>
+
+ 
 
 </body>
 </html>
