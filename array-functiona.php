@@ -36,7 +36,17 @@
 
  Implode: <?php  $string=implode("|", $mynumbers); echo $string ?><br>
 
- 
+ Explode: <pre>
+ 	
+<?php 
+
+$newarray = explode("|", $string);
+print_r($newarray);
+
+ ?>
+
+
+ </pre>
 
 </body>
 </html>
