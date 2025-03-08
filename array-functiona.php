@@ -24,6 +24,11 @@
  Count: <?php echo count($mynumbers); ?><br>
  Sort: <?php echo sort($mynumbers); ?><br>
 
+ <pre>
+ 	
+ 	Sort: <?php sort($mynumbers); print_r($mynumbers); ?>
+ </pre>
+
 
 </body>
 </html>
