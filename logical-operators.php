@@ -29,5 +29,21 @@
 
 	 ?>
 
+	 <br>
+
+	 	<h2>Not Operator</h2>
+	 <?php 
+
+
+	 if (isset($username)) {
+
+	 	echo "Your name is: " . $username;
+
+	 }
+
+
+
+
+	  ?>
 </body>
 </html>
