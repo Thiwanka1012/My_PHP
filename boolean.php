@@ -28,5 +28,15 @@
 
 	 <?php echo "Is variable 1 is boolean:" . is_bool($var1); ?><br>
 	 <?php echo "Is Bool:" . is_bool($var3); ?><br>
+
+
+	 <?php 
+
+	 	if ($var2 == false) {
+	 		echo "Hello Var2";
+	 	}
+
+
+	  ?>
 </body>
 </html>
