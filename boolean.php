@@ -11,6 +11,7 @@
 
 		$var1 = true;
 		$var2 = false;
+		$var3= "Book";
 
 
 
@@ -26,5 +27,6 @@
 
 
 	 <?php echo "Is variable 1 is boolean:" . is_bool($var1); ?>
+	 <?php echo "Is Bool:" . is_bool(var3); ?>
 </body>
 </html>
