@@ -20,7 +20,9 @@
 
 
  Max value : <?php echo max($mynumbers); ?><br>
- Min value : <?php echo min($mynumbers) ?><br>
+ Min value : <?php echo min($mynumbers); ?><br>
+ Count: <?php echo count($mynumbers); ?><br>
+ Sort: <?php echo sort($mynumbers); ?><br>
 
 
 </body>
