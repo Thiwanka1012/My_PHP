@@ -20,7 +20,10 @@
 
 	 <?php echo $student["first_name"]; ?><br>
 
-	 Full name: <?php echo $student["first_name"] . " " . $student["last_name"]; ?>
+	 Full name: <?php echo $student["first_name"] . " " . $student["last_name"]; ?><br>
+
+
+	 Age: <?php echo $student["age"] = 25;  ?>
 
 
 
