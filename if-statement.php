@@ -12,7 +12,11 @@
 
 	$avg_score =50;
 
+	echo "Score:" . $avg_score;
+	echo "<br>";
+
 	if ($avg_score > 40){
+
 		echo "You are Qualified";
 	}
 
