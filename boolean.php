@@ -26,7 +26,7 @@
 	 <?php echo "Variable 2:" . $var2; ?><br>
 
 
-	 <?php echo "Is variable 1 is boolean:" . is_bool($var1); ?>
-	 <?php echo "Is Bool:" . is_bool(var3); ?>
+	 <?php echo "Is variable 1 is boolean:" . is_bool($var1); ?><br>
+	 <?php echo "Is Bool:" . is_bool($var3); ?><br>
 </body>
 </html>
