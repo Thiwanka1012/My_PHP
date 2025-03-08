@@ -29,7 +29,7 @@
 	}
 
 
-	elseif(avg_score >= 35){
+	elseif($avg_score >= 35){
 		echo "You are Qualified, Grade S";
 	}
 
