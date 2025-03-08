@@ -10,19 +10,34 @@
 
 <?php 
 
-	$avg_score =50;
+	$avg_score =20;
 
 	echo "Score:" . $avg_score;
 	echo "<br>";
 
-	if ($avg_score > 40){
+	if ($avg_score >= 70){
 
-		echo "You are Qualified";
+		echo "You are Qualified, Grade A";
+	}
+
+	elseif ($avg_score >=65) {
+		echo "You are Qualified, Grade B";
+	}
+
+	elseif($avg_score >=50){
+		echo "You are Qualified, Grade C";
+	}
+
+
+	elseif(avg_score >= 35){
+		echo "You are Qualified, Grade S";
 	}
 
 	else{
-		echo "You are Not Qualified";
+		echo "You are not Qualified,Fail";
 	}
+
+
 
 
  ?>
