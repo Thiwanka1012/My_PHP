@@ -14,10 +14,13 @@
 
 
 
+
+
  ?>
 
 
  Max value : <?php echo max($mynumbers); ?><br>
+ Min value : <?php echo min($mynumbers) ?><br>
 
 
 </body>
