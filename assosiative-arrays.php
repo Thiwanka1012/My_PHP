@@ -7,15 +7,20 @@
 </head>
 <body>
 
-<?php 
 
-	$student=array("first_name"=>"Deleep","last_name"=>"Kariyawasam","age"=>19);
+	<h1>Assosicate Arrays</h1>
+
+	<?php 
+
+		$student = array("first_name " => "Dileep" , "last_name" => "Kariyawasam", "age" => 21);
 
 
- ?>
+	 ?>
 
 
- <?php echo $student["first_name"]; ?><br>
- <?php echo $student["first_name"] ." ". $student["last_name"]; ?>
+	 <?php echo $student["first_name"]; ?><br>
+
+
+
 </body>
 </html>
