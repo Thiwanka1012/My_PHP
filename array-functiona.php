@@ -9,36 +9,16 @@
 
 <?php 
 
-	$mynumbers = array(14,26,78,99,00);
+	$mynumbers = array(1,2,3,4,5,6,7,8,9);
+
 
 
 
  ?>
 
 
- Maximum value: <?php echo max($mynumbers); ?><br>
- Minimum Value:<?php echo min($mynumbers) ?><br>
- Count: <?php echo count($mynumbers) ?><br>
- Sort: <pre><?php echo sort($mynumbers); print_r($mynumbers); ?></pre>
-Reverse Sort: <pre><?php echo rsort($mynumbers); print_r($mynumbers) ?></pre><br>
+ Max value : <?php echo max($mynumbers); ?><br>
 
-Impode: <?php 
-		
-			$string=implode("|", $mynumbers);
-			echo $string;
-
-
- ?><br>
-<pre>
-Explode:<?php $newarray= explode("|", $string);
-print_r($newarray);
-
-
-?>
-</pre>	
-
-
-search: <?php echo in_array(26, $mynumbers); ?>
 
 </body>
 </html>
