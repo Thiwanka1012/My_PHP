@@ -12,7 +12,7 @@
 
 	<?php 
 
-		$student = array("first_name " => "Dileep" , "last_name" => "Kariyawasam", "age" => 21);
+		$student = array("first_name" => "Dileep" , "last_name" => "Kariyawasam", "age" => 21);
 
 
 	 ?>
