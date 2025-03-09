@@ -13,12 +13,13 @@
 
 		$news_item =32;
 		$category = "Sports";
+		$url = "news.php?news_item={$news_item}&category ={ $category}";
 
 
 	 ?>
 
 
-	<a href="news.php?news_item=<?php echo $news_item;?> &category = <?php echo $category ?>">Read News Item 1</a>
+	<a href="<?php echo $url ; ?>">Read News Item 1</a>
 
 </body>
 </html>
