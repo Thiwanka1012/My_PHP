@@ -9,8 +9,16 @@
 
 	<h1>Home Page</h1>
 
+	<?php 
 
-	<a href="news.php?news_item=32&category=sports">Read News Item 1</a>
+		$news_item =32;
+		$category = "Sports";
+
+
+	 ?>
+
+
+	<a href="news.php?news_item=<?php echo $news_item;?> &category = <?php echo $category ?>">Read News Item 1</a>
 
 </body>
 </html>
