@@ -27,7 +27,7 @@
 	elseif($avg_score >=50){
 		echo "You are Qualified, Grade C";
 	}
-
+ 
 
 	elseif($avg_score >= 35){
 		echo "You are Qualified, Grade S";

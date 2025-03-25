@@ -35,7 +35,7 @@
 	 <?php 
 
 	 	$username= "Dileep";
-	 if (isset($username)) {
+	 if (!isset($username)) {
 
 	 	echo "Your name is: " . $username;
 

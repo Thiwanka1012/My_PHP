@@ -36,4 +36,4 @@ echo $sentence;
 
  <br>
 
- Replace: <?php echo str_replace("two", "seven", $sentence); ?>
+ Replace: <?php echo str_replace("two", , subject) ?>
