@@ -9,6 +9,7 @@
     <?php
     
     $myname = "DTK TV";
+    echo $myname;
     
     ?>
 </body>
